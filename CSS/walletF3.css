@@ -1,0 +1,102 @@
+.php-sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.wallet-balance-title {
+  letter-spacing: 1.3px;
+  font-size: 14px;
+  color: rgb(56, 56, 56);
+  font-weight: bold;
+}
+
+.php-bal-logo {
+  font-size: 40px;
+  max-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.php-bal-text {
+  font-size: 38px;
+  letter-spacing: 3px;
+}
+
+.wallet-container {
+  box-shadow: 1px 3px 10px 0px rgba(90, 90, 90, 0.4);
+}
+
+.disabled-cont {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.not-activated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activate-button {
+  font-size: 13px;
+  letter-spacing: 1px;
+  border-radius: 0;
+}
+
+.activate-wallet-modal {
+  margin-top: 200px;
+}
+
+.wallet-modal-title {
+  font-size: 15px !important;
+  letter-spacing: 1px;
+}
+
+.close-button,
+.create-button {
+  border-radius: 0;
+  width: 130px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.wallet-creation-desc {
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: center !important;
+  color: rgb(66, 66, 66);
+}
+
+.account-number {
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.copy-account-num {
+  cursor: pointer;
+}
+
+.transfer-button {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.info-title-box {
+  min-width: 160px;
+  max-width: 160px;
+
+}
+
+.info-title {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.info-details {
+  font-size: 14px;
+  letter-spacing: 1px;
+}

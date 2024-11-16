@@ -1,0 +1,57 @@
+.nav-link {
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+
+.letter-spacing {
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    color: rgb(121, 121, 121);
+    letter-spacing: 2px;
+}
+
+.desc {
+    letter-spacing: 1px;
+    line-height:  34px;
+}
+
+.title {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 170px !important;
+    letter-spacing: 1px;
+}
+
+.cart-div {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    min-width: 90px;
+  }
+  
+  .cart-div:hover {
+    transform: scale(1.12);
+  }
+  
+  .search-click {
+    transition: all 0.2s ease-in-out;
+    min-width: 80px;
+  }
+  
+  .search-click:hover {
+    transform: scale(1.12);
+  }
+  
+  .inbox-box {
+    min-width: 90px;
+  }
+  
+  .search-group {
+    border: none !important;
+    border-bottom: 0px solid transparent !important;
+    height: 30px !important;
+  }

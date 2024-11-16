@@ -1,0 +1,26 @@
+.poppins {
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+.form-control {
+    font-size: 13px;
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1.5px solid green;
+    border-color: rgb(97, 97, 97) !important;
+}
+
+.check-indicator {
+    font-size: 120%;
+    padding-top: 700%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-button {
+    max-width: 100px;
+}

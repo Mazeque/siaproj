@@ -1,0 +1,371 @@
+.nav-link {
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+  
+  .letter-spacing {
+    letter-spacing: 1px;
+  }
+  
+  .subtitle {
+    color: rgb(121, 121, 121);
+    letter-spacing: 2px;
+  }
+  
+  .desc {
+    letter-spacing: 1px;
+    line-height: 34px;
+  }
+  
+  .title {
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    width: 170px !important;
+    letter-spacing: 1px;
+  }
+  
+  .cart-div {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    min-width: 90px;
+  }
+  
+  .cart-div:hover {
+    transform: scale(1.12);
+  }
+  
+  .search-click {
+    transition: all 0.2s ease-in-out;
+    min-width: 80px;
+  }
+  
+  .search-click:hover {
+    transform: scale(1.12);
+  }
+  
+  .inbox-box {
+    min-width: 90px;
+  }
+  
+  .search-group {
+    border: none !important;
+    border-bottom: 0px solid transparent !important;
+    height: 30px !important;
+  }
+  
+  .space-head {
+    margin-top: 20px;
+  }
+  
+  @font-face {
+    font-family: Inter;
+    src: url(../Fonts/Inter.ttf);
+  }
+  
+  .inter {
+    font-family: Inter;
+  }
+  
+  .chat-container {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fab {
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    background-color: #292929;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 56px;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  }
+  
+  .chat-convo {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width: 300px;
+    height: 450px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    overflow-y: auto;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .chat-header {
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .form-control {
+    font-size: 12px;
+  }
+  .chat-convo::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 15px;
+  }
+  .chat-convo::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 15px;
+    overflow: auto;
+  }
+  
+  .chat-convo::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-radius: 15px;
+    min-height: 40px;
+    overflow: auto;
+    background-clip: padding-box;
+    transition: height 0.2s ease-in-out;
+  }
+  
+  .login-button {
+    font-size: 60%;
+    place-content: center;
+    letter-spacing: 0.4px;
+    width: 25%;
+    cursor: pointer;
+    transition: color 0.5s ease;
+  }
+  
+  .login-button:hover {
+    color: gray;
+  }
+  
+  .modal-dialog-square {
+    border-radius: 0;
+  }
+  
+  .large-modal {
+    width: 300px;
+  }
+  
+  .sign-in-title {
+    letter-spacing: 0.5px;
+    font-size: 80%;
+  }
+  
+  .text-header {
+    border-bottom: 2px solid #e9a91e;
+    width: 36%;
+  }
+  
+  .username-title,
+  .password-title {
+    font-size: 70%;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+  }
+  
+  .createaccount {
+    font-size: 12px;
+  }
+  
+  .form-control {
+    font-size: 10px;
+  }
+  
+  .form-check-input {
+    font-size: 13px;
+  
+    cursor: pointer;
+  }
+  
+  .form-check-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1.5px solid green;
+  
+    border-color: rgb(97, 97, 97) !important;
+  }
+  
+  .forgot-password {
+    font-size: 11px;
+    color: rgb(117, 117, 117);
+    cursor: pointer;
+  }
+  
+  .forgot-password-cont {
+    padding-top: 2px;
+  }
+  
+  .form-check-label {
+    font-size: 11px;
+    margin-top: 8px;
+    color: rgb(117, 117, 117);
+  }
+  
+  .form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1.5px solid green;
+    border-color: rgb(97, 97, 97) !important;
+  }
+  
+  .login-button {
+    font-size: 10px;
+  }
+  
+  .profile-cont-item {
+    text-decoration: none;
+    opacity: 0.98;
+    letter-spacing: 0.7px;
+  }
+  
+  .list-profile-item {
+    background-color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-profile-item:hover {
+    background-color: #eaeaea;
+  }
+  
+  .logout {
+    font-size: 11px;
+    color: black;
+    padding-top: 5.2px;
+    padding-bottom: 1px;
+    padding-right: 6px;
+    font-weight: bold;
+  }
+  
+  .divider {
+    background-color: rgb(35, 35, 35);
+    height: 3px;
+  }
+  
+  .button-class-profile {
+    background-color: white;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  
+  .video-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .video-container:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-icon {
+    padding-top: 2%;
+  }
+  
+  .search-click {
+    cursor: pointer;
+  }
+  
+  .input-group {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-field {
+    padding-right: 40px; /* Adjust the padding to make room for the button */
+  }
+  
+  .search-button-in-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+  
+  .search-panel-transition.d-lg-block {
+    max-height: 500px; /* Adjust the maximum height as needed */
+  }
+  
+  .dropdown-item:active {
+    background-color: rgb(224, 224, 224);
+  }
+  
+  .right-panel-fade {
+    transition: opacity 0.2s;
+  }
+  
+  .search-panel {
+    transition: opacity 0.2s;
+  }
+  
+  .new-arrival {
+    font-size: 230%;
+    letter-spacing: 14.6px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 110%;
+  }
+  
+  .card-text {
+    letter-spacing: 1px;
+    font-size: 90%;
+  }
+  
+  .add-to-cart-button {
+    margin-top: 8%;
+    border-radius: 0px;
+    font-size: 90%;
+    height: 90%;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: Poppins;
+  }
+  
+  .browse {
+    background-color: none;
+    border-radius: 0;
+    font-size: 12px;
+    margin-top: 1%;
+    letter-spacing: 1.7px;
+  }
+  
+  .divider {
+    width: 0.3;
+    height: 0.2;
+  }
+  
+  .new-arrival-container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  .header-title {
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 210%;
+    font-family: NotoSerif;
+    letter-spacing: 7.8px;
+    text-align: center;
+  }
+  
+  .item-desc-box {
+    height: 120px;
+  }
+  
+  .name-box {
+    height: 75px;
+  }
+  

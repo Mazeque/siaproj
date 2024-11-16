@@ -1,0 +1,260 @@
+@font-face {
+  font-family: Inter;
+  src: url(../Fonts/Inter.ttf);
+}
+
+@media (max-width: 575.98px) {
+  .item-d {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .main-image {
+    height: 400px !important;
+  }
+
+  .main-quantity-box {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .item-d {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .main-quantity-box {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .item-d {
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+
+  .main-quantity-box {
+    width: 100%;
+  }
+
+  .main-image {
+    height: 400px !important;
+  }
+
+  .main-quantity-box {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1439px) {
+  .item-d {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .main-image {
+    height: 450px !important;
+  }
+
+  .main-quantity-box {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .item-d {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.prod-title {
+  font-size: 35px;
+  letter-spacing: 1.2px;
+}
+
+.prod-subtitle {
+  font-size: 17px;
+  letter-spacing: 1.7px;
+  color: rgb(154, 154, 154);
+  margin-left: 1px;
+}
+
+.prod-price {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1.7px;
+  font-family: Inter;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.description-text {
+  letter-spacing: 1.3px;
+  line-height: 30px;
+  color: rgb(110, 110, 110);
+}
+
+.main-image {
+  height: 500px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header-cont {
+  padding-left: 15%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.btp {
+  font-size: 16px;
+  letter-spacing: 1.9px;
+  cursor: pointer;
+  color: rgb(155, 154, 154);
+  transition: all 0.5s ease-in-out;
+}
+
+.btp:hover {
+  font-size: 18px;
+  color: black;
+}
+
+.sub-images {
+  height: 120px;
+}
+
+.variation-box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 150px;
+}
+
+.variation-title {
+  letter-spacing: 1.3px;
+  font-weight: bold;
+}
+
+.stocks-total {
+  letter-spacing: 1.5px;
+
+  color: rgb(108, 108, 108);
+}
+
+.quantity-view-box {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  height: 55px;
+  border: solid 1px rgba(95, 95, 95, 0.6);
+}
+
+.main-quantity-box {
+  width: 100px;
+}
+
+.qty-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 27px;
+  border-left: 1px solid rgba(95, 95, 95, 0.6);
+  width: 100% !important;
+}
+
+.button-boxx {
+  width: 100px !important;
+  max-width: 200px;
+}
+
+.qty-bot {
+  border-top: 1px solid rgba(95, 95, 95, 0.6);
+}
+
+.qty-field {
+  margin: 0;
+  width: 36px;
+  font-size: 15px;
+  border: none;
+  text-align: center;
+  height: 52px;
+}
+
+.qty-field:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.qty-field:active {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.sub-image {
+  height: 120px;
+}
+
+.image-button {
+  width: 85px;
+  height: 85px;
+  border: none;
+  padding: 1px;
+  background-color: rgb(206, 202, 202);
+  border-radius: 3px;
+  transition: all 0.4s ease-in-out;
+}
+
+.image-button:hover {
+  width: 90px;
+  height: 90px;
+}
+.img-sub {
+  border-radius: 3px;
+}
+
+.progress-left,
+.progress-right {
+  min-width: 13.5%;
+}
+
+.progress-bar-box {
+  min-width: 73%;
+}
+
+.total_five_star_review {
+    min-width: 13px !important;
+    width: 13px !important;
+    max-width: 13px !important;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.fa-star {
+    padding-left: 5px;
+}
+
+.star-place {
+    min-width: 13px !important;
+    width: 13px !important;
+    max-width: 13px !important;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}

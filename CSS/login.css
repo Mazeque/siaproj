@@ -1,0 +1,61 @@
+.sign-in-title {
+    letter-spacing: 0.5px;
+    font-size: 100%;
+
+}
+
+.text-header {
+    border-bottom: 2px solid #e9a91e;
+    width: 50%;
+}
+
+.username-title, .password-title {
+    font-size: 70%;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+}
+
+.createaccount {
+    font-size: 12px;
+}
+
+.form-control {
+    font-size: 10px; 
+}
+
+.form-check-input {
+    font-size: 13px;
+
+    cursor: pointer;
+} 
+
+.form-check-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1.5px solid green;
+
+    border-color: rgb(97, 97, 97) !important;
+} 
+
+.forgot-password {
+    font-size: 11px;
+    color:rgb(117, 117, 117);
+    cursor: pointer;
+}
+
+.forgot-password-cont {
+    padding-top: 2px;
+}
+
+.form-check-label {
+    font-size: 11px;
+    margin-top: 8px;
+    color:rgb(117, 117, 117);
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1.5px solid green;
+    border-color: rgb(97, 97, 97) !important;
+}

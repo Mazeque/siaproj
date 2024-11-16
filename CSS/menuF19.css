@@ -1,0 +1,580 @@
+.header-space {
+  padding-top: 90px;
+}
+
+.left-m-panel {
+  width: 370px;
+}
+
+.menu-bar {
+  background-color: #fff !important;
+}
+
+.selected-menu {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: black;
+  background-color: transparent !important;
+  align-self: center;
+  align-content: center;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-dropdown {
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  transition: all 0.2s ease-in-out;
+  border-radius: 25px;
+  border: 2px rgb(49, 49, 49) solid !important;
+}
+
+.menu-dropdown:hover {
+  background-color: rgb(49, 43, 43);
+}
+
+.menu-dropdown:hover .selected-menu {
+  background-color: rgb(49, 43, 43);
+  color: white;
+}
+
+.fa-bars {
+  font-size: 13px;
+  align-self: center;
+  align-content: center;
+}
+
+.menu-item {
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+
+  padding-left: 23px;
+  padding-right: 23px;
+  border-left-width: 5px; /* Adjust the value as needed */
+}
+
+.menu-item:hover .menu-item-text {
+  font-weight: bold !important;
+}
+
+.menu-item-text {
+  cursor: pointer;
+}
+
+.head-menu-title {
+  font-size: 36px !important;
+  letter-spacing: 3px !important;
+}
+
+.menu-subtitle {
+  font-size: 14px !important;
+}
+
+@keyframes spinAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+#spinningElement {
+  display: inline-block;
+  transition: transform 1s;
+}
+
+#spinningElement.rotated {
+  animation: spinAnimation 0.5s linear;
+}
+
+.file-input-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer !important;
+}
+
+.custom-file-input {
+  background: #333;
+  border-radius: 10px;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer !important;
+  font-size: 12px;
+  width: 150px;
+  letter-spacing: 0.4px;
+}
+
+.pointer-cursor {
+  cursor: pointer !important;
+}
+
+.actual-file-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer !important;
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.preview {
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.payment-title {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.payment-subtitle {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+
+.add-payment-box {
+  align-items: center;
+}
+
+.add-span {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #333;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-span:hover {
+  background-color: #333;
+  color: white;
+  transform: scale(1.04);
+}
+
+.payment {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.containerPay {
+  width: 490px;
+  border-radius: 8px;
+  padding: 40px;
+  padding-bottom: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+.container-pm {
+  opacity: 0;
+  transform: translateX(150%);
+  transition: all 0.8s ease-in-out;
+}
+
+.containerPay .title {
+  font-size: 10px;
+}
+.containerPay form .category {
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.containerPay form input {
+  display: none;
+}
+
+.category label {
+  width: 100%;
+  height: 65px;
+  padding: 25px;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+label:nth-child(2),
+label:nth-child(4) {
+  margin: 13px 0;
+}
+
+#visa:checked ~ .category .visaMethod,
+#paypal:checked ~ .category .paypalMethod,
+#gcash:checked ~ .category .gcashMethod,
+#cod:checked ~ .category .codMethod,
+#wallet:checked ~ .category .walletMethod {
+  box-shadow: 0px 0px 0px 1.3px black;
+}
+
+#visa:checked ~ .category .visaMethod .check,
+#paypal:checked ~ .category .paypalMethod .check,
+#gcash:checked ~ .category .gcashMethod .check,
+#cod:checked ~ .category .codMethod .check,
+#wallet:checked ~ .category .walletMethod .check {
+  display: block;
+}
+
+label .imgName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgName span {
+  margin-left: 40px;
+}
+
+.imgName .imgContainer {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visa img {
+  width: 70px;
+  padding-left: 10px;
+}
+
+.paypal img {
+  width: 53px;
+  padding-left: 10px;
+}
+
+.gcash img {
+  width: 55px;
+  padding-left: 10px;
+}
+
+.cod img {
+  width: 90px;
+  padding-left: 20px;
+}
+
+.wallet img {
+  width: 85px;
+  padding-left: 20px;
+}
+
+.check {
+  display: none;
+}
+
+.disabled {
+  pointer-events: none !important;
+  opacity: 0.5 !important;
+}
+
+.title-text {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.modal-btn {
+  width: 130px;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  border-radius: 0;
+}
+
+.modal-title {
+  letter-spacing: 1.4px;
+}
+
+.title-card {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.box-card {
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.box-card:hover {
+  transform: scale(1.03);
+  background-color: #e9e9e9;
+}
+
+.card-container {
+  overflow: hidden;
+  padding: 8px;
+  height: 110px;
+}
+
+.active-pm {
+  border: 2px solid rgb(85, 87, 85) !important;
+}
+
+.card-field {
+  background-color: #f1f1f1 !important;
+  letter-spacing: 1px;
+}
+
+.input-group {
+  margin: 0 !important;
+  border-bottom: none !important;
+}
+
+.img-suffix {
+  background-color: #f1f1f1 !important;
+  align-items: center;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  width: 60px;
+  padding-right: 10px;
+}
+
+.title-field {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.pm-box {
+  border-radius: 10px;
+  box-shadow: 1px 2px 6px 3px rgba(151, 151, 151, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pm-img-box {
+  max-width: 70px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pm-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pm-del-box {
+  margin-right: 5px;
+  max-width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.del-button {
+  font-size: 20px !important;
+  cursor: pointer;
+  color: #972929;
+  transition: all 0.2s ease-in-out;
+}
+
+.del-button:hover {
+  transform: scale(1.2);
+}
+
+.method-details {
+  font-size: 14px;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+}
+
+.pm-info {
+  margin-left: 3px;
+  letter-spacing: 4px;
+}
+
+.pm-type {
+  font-size: 13px;
+}
+
+.pm-method-cont {
+  transition: all 0.2s ease-in-out;
+}
+
+.no-link-icon {
+  font-size: 50px !important;
+}
+
+.section-button {
+  max-width: 150px;
+  min-width: 150px;
+}
+
+.orders-btn {
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.order-cont {
+  border: 1px solid rgba(151, 151, 151, 0.2);
+  border-radius: 10px;
+}
+
+.order-id {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: bold !important;
+}
+
+.order-id-details {
+  min-width: 130px;
+  max-width: 130px;
+}
+
+.order-status-details {
+  min-width: 100px;
+  max-width: 120px;
+}
+
+.right-panel {
+  display: flex;
+  justify-content: end;
+}
+
+.order-status {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: bold !important;
+}
+
+.processing {
+  color: #c99016;
+}
+
+.cancelled {
+  color: #972929;
+}
+
+.delivered {
+  color: #298121;
+}
+
+.order-price {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.order-total-price {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.date-created-title {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+
+.date-created {
+  color: black;
+}
+
+.list-title {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #696969;
+}
+
+.odd {
+  background-color: #eeeeee;
+}
+
+.even {
+  background-color: #fcfcfc;
+}
+
+.order-img {
+  width: 90px;
+  height: 90px;
+}
+
+.order-img-col {
+  max-width: 120px;
+}
+
+.product-name {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.product-qty {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #707070;
+}
+
+.center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-all {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.center-x {
+  display: flex;
+  justify-content: center;
+}
+
+.end-x {
+  display: flex;
+  justify-content: end;
+}
+
+.leave-a-review {
+    color: #333;
+    letter-spacing: 1.2px;
+    font-size: 11   px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    position: relative;
+    z-index: 1; /* Add z-index to position the pseudo-element below the text */
+}
+
+.leave-a-review::before {
+    content: "";
+    position: absolute;
+    bottom: -2px; /* Adjust the position of the underline as per your preference */
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #333;
+    transition: width .2s ease-in-out;
+    transform: translateX(-50%);
+    z-index: -1; /* Add z-index to position the pseudo-element below the text */
+}
+
+.leave-a-review:hover::before {
+    width: 100%;
+}
