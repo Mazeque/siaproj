@@ -1,0 +1,36 @@
+.voucher-create-button {
+    font-size: 13px;
+    letter-spacing: 1px !important;
+    font-weight: bold;
+}
+
+.modal-content {
+    background-color: white;
+}
+
+.btn-close {
+    color: white !important;
+    background-color: white !important;
+}
+
+.voucher-field {
+    background-color: #4f5050;
+    border-radius: 20px;
+    border: none;
+    color: white !important;
+}
+
+.voucher-field:focus {
+    background-color: #4f5050;
+}
+
+.form-check-label {
+    margin-top: 2.3px;
+    margin-left: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.modal-button{
+    
+}

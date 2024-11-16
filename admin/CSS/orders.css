@@ -1,0 +1,54 @@
+.orders-navigator {
+}
+
+.section-nav {
+  cursor: pointer;
+  max-width: 200px !important;
+  position: relative;
+  display: inline-block;
+}
+
+.section-nav:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #faa22f; /* Change this to the desired color */
+  transition: width 0.3s ease-in-out;
+}
+
+.section-nav:hover:before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  width: 90%;
+  transform: translateX(-50%);
+}
+
+.section-nav:hover:before,
+.section-nav.active:before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  width: 90%;
+  transform: translateX(-50%);
+}
+
+.section-title {
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-align: center !important;
+}
+
+.number-counter {
+  border: 1px solid #fff;
+  padding-left: 5px !important;
+  border-radius: 5px;
+}

@@ -1,0 +1,36 @@
+.money-icon {
+    font-size: 50px !important;
+
+}
+
+.shopping-cart {
+    font-size: 50px !important;
+}
+
+.shopping-basket {
+    font-size: 50px !important;
+}
+
+.ts-container {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255) !important;
+    border-color: gray;
+    border-width: 1px;
+    border-style:outset;
+}
+
+.to-container {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255) !important;
+    border-color: gray;
+    border-width: 1px;
+    border-style:outset;
+}
+
+.tp-container {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255) !important;
+    border-color: gray;
+    border-width: 1px;
+    border-style:outset;
+}

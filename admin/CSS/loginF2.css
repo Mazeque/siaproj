@@ -1,0 +1,47 @@
+.login-container {
+    margin-top: 8%;
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+
+.login-box {
+    box-shadow: 2px 2px 4px rgba(23, 23, 23, 0.5);
+}
+
+.form-control {
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    letter-spacing: 0.6px !important;
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: rgb(97, 97, 97) !important;
+}
+
+.admin-title {
+    font-size: 120%;
+    letter-spacing: 4px;
+}
+
+.admin-subtitle {
+    font-size: 75%;
+    opacity: 0.5;
+}
+
+.label-field {
+    font-size: 75%;
+    letter-spacing: 0.5px;
+    color: #6b6b6b;
+}
+
+.submit-button {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    width: 100%;
+    letter-spacing: 0.6px;
+    font-family: Poppins !important;
+    font-size: 13px !important;
+    border-radius: 0 !important;
+}

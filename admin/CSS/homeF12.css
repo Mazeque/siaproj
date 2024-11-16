@@ -1,0 +1,168 @@
+html, body {
+    height: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+    overflow-x: hidden;
+}
+
+.content{
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1.4%;
+}
+
+.admin-panel {
+    letter-spacing: 1.6px;
+    font-weight: bold;
+}
+
+.left-panel {
+    margin: 0;
+    height: 100%;
+    background-color: #ffffff;
+    border-color: gray;
+    border-width: 2px;
+    border-style: inset;
+}
+
+.right-panel{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    border-color: gray;
+    border-width: 2px;
+    border-style: inset;
+}
+
+.account-name {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.account-type {
+    padding: 0;
+    font-size: 13px;
+    margin: 0;
+    color: #747171;
+}
+
+.three-dots {
+    padding-top: 0.3rem;
+}
+
+.three-dots-selector{
+    cursor: pointer;
+}
+
+.dropdown-item {
+    letter-spacing: 0.5px !important;
+    font-size: 14px !important; 
+}
+
+.dropdown-item:hover {
+    background-color: #464646 !important;
+}
+
+.row-content {
+    flex: 1;
+}
+
+.menu-item {
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.menu-item-active {
+    background-color: hsl(219, 99%, 70%) !important;
+}
+
+.menu-item-text {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.tools-text{
+    color: #9c9b9b;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    background-color: aliceblue;
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.user-header-title {
+    font-size: 12px !important;
+    letter-spacing: 0.6px;
+}
+
+.user-info {
+    font-size: 10.3px !important;
+    letter-spacing: 0.6px;
+}
+
+/* .odd {
+    background-color: #323232;
+} */
+
+/* .even {
+    background-color: #3e3e3e;
+} */
+
+.edit {
+    color: rgb(56, 178, 56);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.delete {
+    color: rgb(205, 71, 71);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.online {
+    color: rgb(54, 208, 54);
+    font-weight: bold;
+}
+
+.admin {
+    color: rgb(255, 106, 106);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.search-field {
+    background-color: transparent !important;
+    color: black !important;
+    font-size: 11px !important;
+    width: 100% !important;
+}
+
+.button-search{
+    border-radius: 0 !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    letter-spacing: 0.7px !important;
+    width: 70% !important;
+}
+
+.user-main-title {
+    font-size: 30px;
+}
+
+.user-sub-title {
+    color: #646363;
+    font-size: 10px;
+}

@@ -1,0 +1,367 @@
+@font-face {
+    font-family: Inter;
+    src: url(../../Fonts/Inter.ttf);
+  }
+  
+  .inter {
+    font-family: Inter !important;
+  }
+  
+  .section-nav {
+    cursor: pointer;
+    max-width: 200px !important;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .section-nav:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #faa22f; /* Change this to the desired color */
+    transition: width 0.2s ease-in-out;
+  }
+  
+  .section-nav:hover .section-title,
+  .section-nav.active .section-title {
+    transform: scale(1.1);
+    font-weight: bold;
+    color: black !important;
+  }
+  
+  .section-nav:hover:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 90%;
+    transform: translateX(-50%);
+  }
+  
+  .section-nav:hover:before,
+  .section-nav.active:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    width: 90%;
+    transform: translateX(-50%);
+  }
+  
+  .section-title {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: center !important;
+    color: rgb(166, 166, 168) !important;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .number-counter {
+    border: 1px solid #fff;
+    padding-left: 5px !important;
+    border-radius: 5px;
+  }
+  
+  .column-title {
+    font-size: 11px !important;
+    letter-spacing: 1px !important;
+    font-weight: bold;
+  }
+  
+  .check-column {
+    max-width: 40px;
+    min-width: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 4px;
+  }
+  
+  .order-id-column {
+    max-width: 150px;
+    min-width: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .customer-column {
+    max-width: 230px;
+    min-width: 140px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .amount-column {
+    max-width: 180px;
+    min-width: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .paid-by-column {
+    max-width: 200px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .status-column {
+    max-width: 200px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .order-date-column {
+    max-width: 200px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .action-column {
+    max-width: 150px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .form-check-input {
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .form-check-input:focus {
+    box-shadow: none;
+    outline: #faa22f;
+    border-color: #fff;
+  }
+  
+  .form-check-input:active {
+    box-shadow: none;
+    outline: #faa22f;
+  }
+  
+  .form-check-input:checked {
+    background-color: rgb(49, 44, 44);
+    border: none;
+  }
+  
+  .processing, .on-delivery {
+    color: orange !important;
+  }
+  
+  .successful {
+    color: rgb(42, 141, 39) !important;
+  }
+  
+  .cancelled {
+    color: rgb(155, 45, 45) !important;
+  }
+  
+  .sec-cont {
+    display: flex;
+    justify-content: start !important;
+    align-items: center;
+  }
+  
+  .section-title-cont,
+  .section-value-cont {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-checkbox-cont {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .order-id-col {
+    min-width: 100px !important;
+    max-width: 100px !important;
+  }
+  
+  .checkbox-cont {
+    min-width: 80px !important;
+    max-width: 80px !important;
+  }
+  
+  .order-box-cont {
+    min-height: 150px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .order-box {
+    min-height: 150px;
+    border-radius: 15px;
+  
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .order-box:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 6px 20px 0px rgb(59, 59, 59);
+  }
+  
+  .main-info {
+    max-width: 100px;
+    min-width: 75px;
+  }
+  
+  .name-info {
+    min-width: 200px;
+    align-items: center;
+  }
+  
+  .orders-btn {
+    border-radius: 25px;
+    font-size: 14px;
+  }
+  
+  .order-cont {
+    border: 1px solid rgba(151, 151, 151, 0.2);
+    border-radius: 10px;
+  }
+  
+  .order-id {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold !important;
+  }
+  
+  .order-id-details {
+    min-width: 130px;
+    max-width: 130px;
+  }
+  
+  .order-status-details {
+    min-width: 100px;
+    max-width: 120px;
+  }
+  
+  .right-panel {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .order-status {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: bold !important;
+  }
+  
+  .processing {
+    color: #c99016;
+  }
+  
+  .cancelled {
+    color: #972929;
+  }
+  
+  .delivered {
+    color: #298121;
+  }
+  
+  .order-price {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .order-total-price {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  
+  .date-created-title {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #696969;
+  }
+  
+  .date-created {
+    color: rgb(179, 179, 179);
+  }
+  
+  .list-title {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #696969;
+  }
+  
+  /* .odd {
+    background-color: #414141;
+  }
+  
+  .even {
+    background-color: #2e2e2e;
+  } */
+  
+  .order-img {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .order-img-col {
+    max-width: 120px;
+  }
+  
+  .product-name {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #e9e9e9;
+  }
+  
+  .product-qty {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #707070;
+  }
+  
+  .center-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .end-all {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .center-x {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .end-x {
+    display: flex;
+    justify-content: end;
+  }
+  

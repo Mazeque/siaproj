@@ -1,0 +1,31 @@
+.edit-title {
+    font-size: 16px;
+    color: gray !important;
+}
+
+.edit-span-title {
+    font-size: 16px;
+    color: rgb(144, 59, 37) !important;
+    font-weight: bold;
+}
+
+
+.edit-field-label {
+    font-size: 12px;
+    color: rgb(100, 100, 100) !important;
+}
+
+.submit-button {
+    font-size: 13px !important;
+    border-radius: 0 !important;
+}
+
+.close {
+    outline: none !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.edit-modal {
+    max-height: 400px; overflow-y: auto;
+}

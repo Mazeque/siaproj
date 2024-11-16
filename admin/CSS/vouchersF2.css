@@ -1,0 +1,54 @@
+.voucher-create-button {
+    font-size: 13px;
+    letter-spacing: 1px !important;
+    font-weight: bold;
+}
+
+.modal-content {
+    background-color: white;
+}
+
+.btn-close {
+    color: white !important;
+    background-color: white !important;
+}
+
+.voucher-field {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    color: black !important;
+}
+
+.voucher-field:focus {
+    background-color: white;
+}
+
+.form-check-label {
+    margin-top: 2.3px;
+    margin-left: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.modal-button{
+    width: 120px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 0 !important;
+}
+
+.input-group {
+    max-height: 20px !important;
+}
+
+.voucher-prefix, .voucher-text {
+    background-color: white;
+    max-height: 30px !important;
+}
+
+.form-control.time-picker.voucher-field::-webkit-calendar-picker-indicator {
+    filter: invert(1) brightness(2);
+    cursor: pointer;
+  }
